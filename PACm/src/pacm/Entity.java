@@ -14,7 +14,23 @@ public abstract class Entity {
     private int yPos;
     private boolean dead;
     
-    public void move(int placeholder){}
+    public void move(int placeholder){
+    
+    }
+
+    public boolean isDead() {
+        return dead;
+    }
+
+    public int[] getPos() {
+        int[] pos = new int[2];
+        pos[0] = xPos;
+        pos[1] = yPos;
+        return pos;
+    }
     
     
-}
+    
+    
+    }
+
