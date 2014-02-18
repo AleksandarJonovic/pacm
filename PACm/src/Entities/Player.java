@@ -8,13 +8,15 @@ package Entities;
  *
  * @author Aleksandar Jonovic
  */
-public abstract class Player {
+public class Player {
 
     private int xPos;
     private int yPos;
     private boolean dead;
     
-    public void initPos(){}
+    public void initPos(){
+        
+    }
     
     public void move(){
     //Movement logic for the player goes here, event listeners etc.

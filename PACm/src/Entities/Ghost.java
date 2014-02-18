@@ -8,29 +8,19 @@ package Entities;
  *
  * @author Aleksandar Jonovic
  */
-public abstract class Ghost {
+public abstract class Ghost extends Entity{
 
     private int xPos;
     private int yPos;
     private boolean dead;
     
+    @Override
     public void initPos(){}
     
+    @Override
     public void move(){
-    
     //Ghost movement logic here.
     
-    }
-
-    public boolean isDead() {
-        return dead;
-    }
-    
-    public int[] getPos() {
-        int[] pos = new int[2];
-        pos[0] = xPos;
-        pos[1] = yPos;
-        return pos;
     }
     
 }
