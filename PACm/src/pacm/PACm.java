@@ -4,6 +4,9 @@
  */
 package pacm;
 
+import Graphics.Canvas;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Alex
@@ -14,7 +17,8 @@ public class PACm {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
         // Run PACm here!!!!!!!!!!!!!!!!1
+        Frame frame = new Frame();
+        frame.run();
     }
 }
