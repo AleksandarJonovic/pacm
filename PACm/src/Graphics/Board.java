@@ -4,7 +4,7 @@ import java.util.Random;
 
 /**
  *
- * @author Andreas
+ * @author Andreas Jacobsen
  */
 public class Board 
 {

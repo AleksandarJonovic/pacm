@@ -8,7 +8,7 @@ import java.awt.Graphics;
 
 /**
  *
- * @author Andreas
+ * @author Andreas Jacobsen
  */
 public class Canvas extends javax.swing.JPanel 
 {

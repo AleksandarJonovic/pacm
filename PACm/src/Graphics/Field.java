@@ -5,7 +5,7 @@ package Graphics;
 
 /**
  *
- * @author Andreas
+ * @author Andreas Jacobsen
  */
 public abstract class Field {
     public int x;

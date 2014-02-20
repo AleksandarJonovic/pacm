@@ -5,7 +5,7 @@ package Graphics;
 
 /**
  *
- * @author Andreas
+ * @author Andreas Jacobsen
  */
 public class Wall extends Field {
 

@@ -7,7 +7,7 @@ import Graphics.Canvas;
 
 /**
  *
- * @author Andreas
+ * @author Andreas Jacobsen
  */
 public class Frame extends javax.swing.JFrame {
 
