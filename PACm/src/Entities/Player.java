@@ -4,35 +4,36 @@
  */
 package Entities;
 
+import Graphics.Board;
+import Graphics.Field;
+
 /**
  *
  * @author Aleksandar Jonovic
  */
-public class Player {
+public class Player extends Entity {
 
     private int xPos;
     private int yPos;
     private boolean dead;
-    
-    public void initPos(){
+
+    @Override
+    public void initPos() {
+
+    }
+
+        public void move(Direction direction) {
+        Field[][] fields = Board.INSTANCE.getFieldArray();
         
-    }
+        int[] getDir = direction.getDirection();
+
+        switch (direction) {
+
+            case NORTH: fields[xPos][yPos] = null;
+               //  fields[xPos + getDir[0]][yPos + getDir[1]] = this;
+        
     
-    public void move(){
-    //Movement logic for the player goes here, event listeners etc.
-    
+        }
     }
 
-    public boolean isDead() {
-        return dead;
-    }
-
-    public int[] getPos() {
-        int[] pos = new int[2];
-        pos[0] = xPos;
-        pos[1] = yPos;
-        return pos;
-    }
-    
-    
 }

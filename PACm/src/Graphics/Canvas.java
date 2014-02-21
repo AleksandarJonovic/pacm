@@ -17,7 +17,7 @@ public class Canvas extends javax.swing.JPanel
     
     public Canvas()
     {
-        Board b = new Board(10);
+        Board b = Board.INSTANCE;
         b.generateBoard();
         f = b.getFieldArray();
         

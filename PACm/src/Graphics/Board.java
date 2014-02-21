@@ -11,8 +11,9 @@ public class Board
     private final Field[][] fields;
     private final int x;
     private final int y;
+    public static final Board INSTANCE = new Board(10);
     
-    public Board(int size)
+    private Board(int size)
     {
         x = size;
         y = size;
